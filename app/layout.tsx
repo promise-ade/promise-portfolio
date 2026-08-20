@@ -1,5 +1,6 @@
 import type { Metadata, Viewport } from "next";
 import { Instrument_Serif, Manrope } from "next/font/google";
+import { SpeedInsights } from "@vercel/speed-insights/next";
 import type { ReactNode } from "react";
 import "./globals.css";
 
@@ -54,6 +55,7 @@ export default function RootLayout({
     >
       <body id="top" className="min-h-screen bg-background font-sans text-foreground antialiased">
         {children}
+        <SpeedInsights />
       </body>
     </html>
   );
