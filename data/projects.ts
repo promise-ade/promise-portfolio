@@ -146,7 +146,7 @@ export const projects: Project[] = [
     description:
       "Developed a minimum viable product (MVP) to help teams track mood trends, provide peer recognition, and safely share feedback to improve engagement and culture.",
     ctaLabel: "View project",
-    href: "https://gethumore.com/",
+    href: "https://humor-team-pulse-platform.vercel.app/",
     image: {
       src: "/projects/humore/screenshot.png",
       alt: "Humore employee experience platform landing page",
